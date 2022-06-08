@@ -6,15 +6,18 @@
     "viewtype": "XML",
     "ui5libs": "Content delivery network (SAPUI5)",
     "newdir": true,
-    "codeassist": true,
+    "codeassist": false,
     "namespaceURI": "com/myorg",
     "opa5pos": [
+      "Main",
       "Main"
     ],
     "opa5Journeys": [
+      "Main",
       "Main"
     ],
     "uimodules": [
+      "uimodule",
       "uimodule"
     ],
     "setupCompleted": true

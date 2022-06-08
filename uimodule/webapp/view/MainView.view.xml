@@ -1,11 +1,18 @@
-<mvc:View controllerName="com.myorg.myUI5App.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-    <Shell id="shell">
-        <App id="app">
-            <pages>
-                <Page id="page" title="{i18n>title}">
-                    <content />
-                </Page>
-            </pages>
-        </App>
-    </Shell>
+<mvc:View xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" height="100%" controllerName="com.myorg.myUI5App.controller.MainView">
+
+
+    <NavContainer class="lenzeNavRma lenzeStyle lenzerma" height="1500px">
+        <pages>
+            <Page class="rmaPage" showHeader="false">
+                <content>
+                    <VBox class="test"/>
+                    <DatePicker ></DatePicker>
+                </content>
+            </Page>
+        </pages>
+    </NavContainer>
+
+
 </mvc:View>

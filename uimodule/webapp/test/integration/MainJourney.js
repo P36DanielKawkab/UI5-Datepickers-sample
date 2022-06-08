@@ -1,6 +1,8 @@
 sap.ui.define([
   "sap/ui/test/opaQunit",
   // "./pages/Main",
+  "./pages/Main",
+  "./pages/Main",
   "./pages/Main"
 ],
 /**
